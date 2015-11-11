@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ipuntichetrottafarebbemeglio;
+package TheFirst;
 
 /**
  *
  * @author pythonraider
  */
-public class IPuntiCheTrottaFarebbeMeglio {
+public class TheFirst {
 
     /**
      * @param args the command line arguments

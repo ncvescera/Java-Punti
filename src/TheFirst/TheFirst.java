@@ -22,7 +22,7 @@ public class TheFirst {
         System.out.println("X: "+P1.getX());
         System.out.println("Y: "+P1.getY());
         
-        Punto P2 = new Punto(4,6);
+        Punto P2 = new Punto(1,2);
         
         System.out.println("X: "+P1.getX());
         System.out.println("Y: "+P1.getY());

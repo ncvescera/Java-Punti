@@ -44,7 +44,7 @@ public class Punto {
     }
     public float distToO(){
         float dist;
-        dist = (x*x) + (y*y);
+        dist = (float)Math.pow(x, 2) + (float)Math.pow(y,2);
         dist = (float)Math.sqrt(dist); // Math ritorna sempre un double
         return dist;
     }
@@ -57,6 +57,9 @@ public class Punto {
         float dist;
         dist = (float) Math.pow((P.x - this.x),2) + (float)Math.pow((P.y - this.y), 2);
         dist = (float)Math.sqrt(dist);
+        
+        if(dist < 0)
+            dist *= -1;
         
         return dist;
     }
